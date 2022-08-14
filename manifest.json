@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Anime Quotes Tab",
+    "version": "1.0",
+    "description": "Displays new anime quotes and background image on each refresh",
+    "author": "Arjun K V",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "https://animechan.vercel.app/api/random",
+      "https://api.waifu.im/random/?orientation=LANDSCAPE"
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    }
+  }
