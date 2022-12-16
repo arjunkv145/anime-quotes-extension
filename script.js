@@ -13,7 +13,7 @@ setInterval(() => {
     `
 }, 1000)
 
-fetch('https://api.waifu.im/random/?orientation=LANDSCAPE')
+fetch('https://api.waifu.im/search/?orientation=LANDSCAPE')
     .then(res => res.json())
     .then(data => {
         container.style.backgroundImage = `url('${data.images[0].url}')`
